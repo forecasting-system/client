@@ -11,7 +11,7 @@ describe("LoginUseCase", () => {
   it("should return a login", async () => {
     // Arrange
     const credentials: CredentialsProps = {
-      user: "user",
+      email: "user",
       password: "password",
     };
 
