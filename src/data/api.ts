@@ -4,7 +4,6 @@ import { AuthCasesFactory } from "@presenters/auth.factory";
 
 const api = axios.create({
   baseURL: CONSTANTS.DASHBOARD_BACKEND,
-  withCredentials: true,
 });
 
 export let apiToken: string | null = null;
